@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Frontend Developer",
+    "organisation": "Happieloop Pvt. Ltd.",
+    "startDate": "Nov, 2023",
+    "endDate": "Dec, 2023",
+    "experiences": ["Worked on Latest Projects", "Making Animated Sites"],
+    "imageSrc": "history/google.png"
+  },
+  { 
+    "role": "Data Analytics",
+    "organisation": "Navodita",
+    "startDate": "JAN, 2024",
+    "endDate": "FEB, 2024",
+    "experiences": ["Worked on Power Bi. Software", "Handle a Complex Data of Company"],
+    "imageSrc": "history/microsoft.png"
+  },
+  {
+    "role": "Campus Ambasdoor",
+    "organisation": "Physics Wallah",
+    "startDate": "MAR, 2020",
+    "endDate": "Present",
+    "experiences": [
+      "Help to Learn New Technology",
+      "Motivate to Crack Gate Exam to Our Juniors"
+    ],
+    "imageSrc": "history/netflix.png"
+  }
+]

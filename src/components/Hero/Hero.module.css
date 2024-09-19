@@ -1,0 +1,107 @@
+@import '../../vars.css';
+.container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* color: white; */
+  color: var(--color-text);
+  z-index: 1;
+}
+.title
+{
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
+  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text; */
+}
+.description{
+  font-size: 30px;
+  margin-bottom: 52px;
+  color: white;
+  font-family:cursive;
+}
+
+.contactBtn{
+  background-color: var(--color-primary);
+  text-decoration: none;
+  color: yellow;
+  font-weight: 800;
+  font-size: 30px;
+  border-radius: 100px;
+  padding: 10px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+.heroImg{
+  width:40%;
+  border-radius: 50%;
+  z-index: 1;
+  animation-name:floating;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0%{
+    transform: translate(0,0px);
+  }
+  50%{
+    transform: translate(0,10px);
+  }
+  100%{
+    transform: translate(0,-0px);
+  }
+}
+/* .Topblur{
+  position: absolute;
+  height: 50vw;
+  width: 50vw;
+  top: -100px;
+  left: 0vw;
+  border-radius: 753px;
+  min-width: 350px;
+  min-height: 350px;
+  filter: blur(100px);
+  z-index: 0;
+  background-color: rgba(25, 55, 109, 0.7);
+
+}
+.Bottomblur{
+  position: absolute;
+  height: 70vw;
+  width: 50vw;
+  top: -356px;
+  right: -10vw;
+  border-radius: 753px;
+  min-width: 350px;
+  min-height: 250px;
+  filter: blur(100px);
+  z-index: 0;
+  background-color: rgba(25, 55, 109, 0.7);
+
+} */
+@media screen and (max-width: 830px){
+  .container{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .content{
+    align-items: center;
+    text-align: center;
+  }
+}
